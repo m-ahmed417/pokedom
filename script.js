@@ -25,5 +25,6 @@ pokemonArray.forEach((pokemon) => {
   image.src = pokemon.sprite;
   card.appendChild(image);
 
+  const pokemonContainer = document.getElementById(".card-container");
   pokemonContainer.appendChild(card);
 });
